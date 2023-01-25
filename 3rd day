@@ -1,0 +1,36 @@
+//1. Write a program for simple calculator//
+
+import java.util.Scanner;
+
+public class SimpleCalculator {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter number 1 : ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter number 2 : ");
+        int num2 = sc.nextInt();
+        System.out.println("enter choice 1-Add,2-subtract,3-multiply,4-Divide \n enter your choice");
+        int ch = sc.nextInt();
+
+
+        if (ch ==1){
+            System.out.println("Addition : "+(num1+num2));
+        }
+        else if (ch ==2) {
+            System.out.println("subtraction : "+(num1-num2));
+
+        }
+        else if (ch ==3) {
+            System.out.println("multiplication : " +(num1*num2));
+
+        }
+        else if (ch == 4){
+            System.out.println("division : " +(num1/num2));
+        }
+        else {
+            System.out.println("invalid input");
+        }
+
+
+    }
+}
