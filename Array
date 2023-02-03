@@ -1,0 +1,29 @@
+//1.Write a Java program to find a specified element in a given array of elements using Linear Search.
+
+
+import java.util.Scanner;
+public class Arrays {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        int numbers[] = new int[size];
+
+
+        //input
+        for (int i =0; i < size; i++){
+            numbers[i] = sc.nextInt();
+        }
+        int x = sc.nextInt(); // for specified element
+        //output
+        for (int i = 0;i<numbers.length; i++){
+            if (numbers[i] == x){
+                System.out.println("x found at index i : " +i);
+            }
+
+            }
+        }
+    }
+
+
+
+
