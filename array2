@@ -1,0 +1,49 @@
+Q1. Given an array of integers {2, 6, -5, -1, 0, 4, -9}, print only the positive values present in the array.
+Output:
+2
+6
+0
+4
+
+public class Array {
+    public static void main(String[] args) {
+       int arr[]={2,6,-5,-1,0,4,-9};
+       for(int num:arr){
+           if (num>=0){
+               System.out.println(num);
+           }
+       }
+    }
+}
+
+
+
+2. Convert the list of Strings {“ab”, “bc”, “cd”, “de”, “ef”, “fg”, “gh”} into an array of strings and print all
+strings stored on odd indices of the array.
+Output:
+bc
+de
+fg
+
+
+public class Array {
+    public static void main(String[] args) {
+       String arr[]={"ab","bc","cd","de","ef","fg","gh"};
+           for (int i=0;i<arr.length;i++){
+               if (i%2!=0){
+                   System.out.println(arr[i]);
+               }
+           }
+       }
+    }
+    
+    
+    
+    Q4. Calculate the minimum element in the array {2, -3, 5, 8, 1, 0, -4} using standard library method
+for calculating the minimum element.
+
+
+Output:
+-4
+
+
