@@ -127,5 +127,24 @@ public class arra2 {
 
 
 
+Calculate the average marks from an array containing marks of all students in physics using a for-each loop.
+
+
+
+
+public class arra2 {
+    public static void main(String[] args) {
+        float marks[]={46.5f,34.9f,62.7f,67.8f,78.2f};
+        float sum=0;
+        for (float element:marks){
+            sum=sum+element;
+        }
+        System.out.println("average marks is :  " +sum/ marks.length);
+    }
+}
+
+
+
+
 
 
