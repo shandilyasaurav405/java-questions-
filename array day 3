@@ -1,0 +1,23 @@
+//1.Take an array of numbers from user and print them on the screen
+
+
+import java.util.Scanner;
+
+public class arra2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of array");
+        int size= sc.nextInt();
+        int []arr=new int[size];
+        System.out.print("Enter values : " );
+        for (int i=0;i< arr.length;i++){
+            arr[i]= sc.nextInt();
+        }
+        System.out.print("Printed array is");
+        for (int i=0;i< arr.length;i++){
+         System.out.print( +arr[i]);
+        }
+    }
+}
+
+
